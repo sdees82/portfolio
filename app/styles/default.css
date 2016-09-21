@@ -1,0 +1,693 @@
+
+@media screen and (max-width:566px){
+
+  /* ------ layout
+  -----------------------------------------------*/
+.navbar{
+  display: none;
+}
+  html, body {
+    height: 100%;
+    width: 100%;
+  margin:0;
+  padding:0;
+  font-family: 'Raleway', sans-serif;
+    }
+
+  body {
+  background:#f5f5f5;
+  font-size:12px;
+  color:#333;
+  line-height:18px;
+  }
+
+  #content{
+    display: none;
+  }
+
+  /* ------ anchors
+  -----------------------------------------------*/
+
+  a {
+  text-decoration:none;
+  color:#333;
+    }
+/********img**************/
+
+#myImage{
+  margin: 15% 0 15% 0;
+  padding: 0;
+  visibility: hidden;
+}
+
+img{
+
+
+}
+/********jumbotron********/
+.jumbotron{
+  height: 50%;
+  width: 100%;
+  background: url("images/Desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #000;
+  margin:0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom:0;
+
+}
+
+
+.overlay{
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0,0.7);
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+
+.jumbotron .overlay > h2{
+  color: #fff;
+  margin: 100px auto 0;
+  padding:0;
+  font-size: 5em;
+  font-family: 'Arizonia', cursive;
+
+}
+.jumbotron .overlay > h3{
+  color: #fff;
+  margin: 0;
+  padding:0;
+  font-size: 1.5em;
+}
+
+
+.glyphicon{
+display: none;
+}
+
+.sean{
+  display: none;
+}
+
+/*******About ME**********/
+#aboutMe{
+  color: #fff;
+  background: #2C3539;
+  height: 50%;
+
+}
+
+#aboutMe > .container > h2{
+  padding-top:5%;
+  margin-bottom: 0;
+  font-size: 2em;
+}
+#aboutMe > .container > hr{
+  width: 50px;
+}
+#aboutMe > .container > p{
+  font-size: 1.2em;
+}
+.aboutheading{
+  display: none;
+}
+
+/*******RECENT WORK***********/
+#recentWork{
+  height: 1000px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
+
+#recentWork > .container > h2{
+  font-family: 'Arizonia', cursive;
+  height: 100%;
+  font-size: 3.5em;
+  margin-bottom: 5%;
+}
+
+#recentWork > .container > hr{
+  margin-top: 0;
+  margin-bottom: 30px;
+  width: 50px;
+  background: #000;
+}
+
+#recentWork > .container > .row > .col-sm-4 > h3{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 1.5em;
+}
+#recentWork > .container > .row > .col-sm-4 > div{
+  margin-bottom: 20%;
+}
+
+.wab{
+  margin-bottom: 10%;
+}
+.filler{
+  max-width: 400px;
+  height: 200px;
+  width: 290px;
+  background: #000;
+  margin-bottom: 0;
+}
+/*******SKILLS***********/
+#skills-mobile{
+height: 90%;
+margin-top: 10%;
+margin-bottom: 0;
+font-family: 'Raleway', sans-serif;
+font-size: 2em;
+}
+
+#skills-mobile > hr{
+width: 50px;
+margin-bottom: 5%;
+}
+
+
+.progress{
+  margin-top: 10px;
+  box-shadow: 1px 1px #222 ;
+}
+
+.app-skills{
+  margin-top: 30px;
+}
+
+/*******CONTACT ME*******/
+#contactMe{
+margin-top: 20%;
+margin-bottom: 10%;
+padding: 30px 15px;
+color: #fff;
+background: #2A2A2A;
+height: 50%;
+}
+#contactMe > .container{
+  padding: 0 10px ;
+  height: 100%;
+}
+
+#contactMe > .container> hr{
+  width: 50px;
+}
+
+#contactMe > .container > h2{
+  margin-top: 20px;
+  padding: 30px 0;
+  padding-bottom: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+#contactMe > .container > p{
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+#contactMe > .container> a > .btn{
+  margin: 0 30% ;
+}
+/******footer**********/
+footer{
+
+
+}
+
+.copy{
+  margin-top: 20px;
+}
+}
+/********med*******/
+@media screen and (min-width:567px) and (max-width:767px){
+  html,body{
+    height: 100%;
+    width:100%;
+
+  }
+
+  /*****nav****/
+  .navbar{
+    display: none;
+  }
+  /****jumbo****/
+  .jumbotron{
+    padding: 0;
+  height: 50%;
+  width: 100%;
+  background: url("images/macbook.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  margin: 0;
+}
+
+.jumbotron > .overlay{
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.jumbotron > .overlay > h2{
+  margin: 9% auto 0;
+  font-size: 7em;
+  font-family: 'Arizonia', cursive;
+}
+
+.glyphicon{
+display: none;
+}
+  /***aboutheading***/
+  .aboutheading{
+    display:none;
+  }
+  /****aboutMe***/
+  #aboutMe{
+    margin-bottom: 10%;
+    height: 50%;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    background: #2C3539;
+    border-top: 1px solid #fff;
+  }
+  #aboutMe > .container > hr{
+    width: 50px;
+  }
+
+  #aboutMe > .container > h2{
+    padding-top: 5%;
+  }
+
+  #aboutMe > .container > p{
+    margin-left: 10%;
+    max-width: 80%;
+  }
+
+  /*****recentWork***/
+  #recentWork{
+    font-family: 'Raleway', sans-serif;
+  }
+  #recentWork > .container > hr{
+    width: 50px;
+  }
+
+
+
+  .wab{
+    width: 493px;
+    height: 408px;
+    margin: 0 auto;
+
+}
+  /******skills-mobile*****/
+  #skills-mobile{
+    margin: 20%;
+    max-width: 75%;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  #skills-mobile > h2{
+
+  }
+
+  #skills-mobile > .container > h3{
+
+  }
+
+  #skills-mobile > hr{
+    width: 50px;
+  }
+  .progress{
+    margin-bottom: 10%;
+  }
+
+
+  /****skills****/
+  #skills{
+
+    display: none;
+  }
+  /****contactMe****/
+  #contactMe{
+    height: 50%;
+    width: 100%;
+    margin-top: 0px;
+    background: #2C3539;
+    color: #fff;
+
+
+  }
+  #contactMe > .container > h2{
+    margin-top: 15%;
+    padding:0;
+    font-size:2em;
+  }
+
+  #contactMe > .container > p{
+    width: 100%;
+    margin: 2% auto;
+    font-size: 1.1em;
+  }
+
+  #contactMe > .container > a > .btn{
+    margin: 0 40%;
+  }
+  /****footer***/
+  .footer{
+    margin-top: 2%;
+    margin-left: 6%;
+    height: 10%;
+    width: 100%;
+  }
+  .footer > .container > .row > .col-xs-3 > a >.img-responsive{
+  height: 50px;
+  width: 50px;
+  }
+
+  .copy{
+    max-width: 100%;
+    margin:2% 5%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********lg************/
+
+
+
+
+@media screen and (min-width:768px){
+  /********img**************/
+
+  html, body {
+    height: 100%;
+    width: 100%;
+  margin:0;
+  padding:0;
+  }
+
+  body {
+  background:#f5f5f5;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  color:#333;
+  line-height:18px;
+  }
+
+  .navbar{
+    background: transparent;
+    color: #fff;
+    border: none;
+  }
+
+  .navbar-inverse .navbar-nav>li>a{
+    color: #fff;
+  }
+  .navbar>.container-fluid .navbar-brand {
+    color: #fff;
+  }
+
+
+  #myImage{
+    width: 100%;
+    margin: 0 230px 0;
+
+  }
+
+  /********jumbotron********/
+  .jumbotron{
+    height: 100%;
+    width: 100%;
+    background: url("images/macbook.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #fff;
+  }
+
+  .jumbotron > .overlay{
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .jumbotron > .overlay > h2{
+  margin: 200px auto 0;
+    font-size: 100px;
+    font-family: 'Arizonia', cursive;
+  }
+
+  .glyphicon{
+    margin: 50px 50%;;
+    font-size: 1.5em;
+    color: #fff;
+  }
+  /*******About ME**********/
+  #aboutMe{
+    display: none;
+
+  }
+  .aboutheading{
+    height:70%;
+    width: 100%;
+    background: #2C3539;
+    visibility: hidden;
+    position: relative;
+    color: #fff;
+    border-bottom: 2px solid #000;
+  }
+
+  .aboutheading > .container > .row > .col-sm-4{
+      font-size: 1.5em;
+      font-family: 'Raleway', sans-serif;
+      margin-top:4%;
+  }
+
+  .sean{
+    margin: -100px 39%;
+    border: 2px solid #fff;
+    border-radius: 100px 100px ;
+  }
+  /*******recentWork***********/
+
+  #recentWork{
+    height: 90%;
+    width:100%;
+    margin-top:5%;
+  }
+  #recentWork > .container > hr{
+      width: 50px;
+      margin-top: 0;
+
+  }
+
+  #recentWork > .container > h2{
+    font-family: 'Arizonia', cursive;
+    font-size: 4.5em;
+  }
+  #recentWork > .container > .row > .col-sm-4 > .myoverlay > a > .img-responsive{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5%;
+    max-width: 100%;
+  }
+.wab{
+  width: 293px;
+  height: 208px;
+}
+
+
+
+
+  .aboutheading > .container > .row > .col-sm-4 > p{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .filler{
+    height: 590px;
+    width: 100%;
+    background: #000;
+    margin-bottom: 0;
+  }
+
+  /*******SKILLS***********/
+  #content {
+    background: url("..images/pencil.jpg");
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  width:100%;
+  height:100%;
+  }
+  .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+    margin: 0;
+  }
+  .legend {
+  float:left;
+  width:30%;
+  margin-top: 20%;
+  }
+
+  #content h1 {
+  font-family: 'Raleway', sans-serif;
+  color:#fff;
+  margin-bottom:40px;
+  text-align:right;
+  font-size: 1.4em
+  }
+
+#skills-mobile{
+  display: none;
+}
+  .skills {
+  float:left;
+  clear:both;
+  width:50%;
+  margin: 0;
+
+  }
+
+
+
+  .skills ul,
+  .skills li {
+  display:block;
+  list-style:none;
+  margin:0;
+  padding:0;
+  }
+
+  .skills li {
+  float:right;
+  clear:both;
+  padding:0 15px;
+  height:35px;
+  line-height:35px;
+  color:#fff;
+  margin-bottom:1px;
+  font-size:18px;
+  }
+
+  .skills .jq {
+  background:#97BE0D;
+  }
+
+  .skills .css {
+  background:#D84F5F;
+  }
+
+  .skills .html {
+  background:#88B8E6;
+  }
+
+  .skills .php {
+  background:#BEDBE9;
+  }
+
+
+  /*******CONTACT ME*******/
+#contactMe{
+  height: 40%;
+  width: 100%;
+  margin-top: 0px;
+  background: #2A2A2A;
+  color: #fff;
+  border-top: 1px solid #fff;
+}
+
+
+#contactMe > .container > h2{
+  margin-top: 5%;
+  padding:0;
+  font-size:3em;
+}
+
+#contactMe > .container > p{
+  width:100%;
+  margin-bottom: 2%;
+  font-size: 1.5em;
+}
+
+#contactMe > .container > a > .btn{
+  margin: 0 45%;
+}
+
+
+  /* ------ layout
+  -----------------------------------------------*/
+
+
+
+.footer{
+
+  height: 10%;
+  width: 100%;
+}
+.footer > .container > .row{
+  margin-left: 10%;
+}
+.footer > .container > .row > .col-xs-3{
+  margin-top: 2%;
+}
+.footer > .container > .row > .col-xs-3 > a >.img-responsive{
+height: 50px;
+width: 50px;
+}
+
+.copy{
+  max-width: 100%;
+  margin:2% 5%;
+}
+
+.copy > p{
+  margin: 0;
+}
+
+
+  #diagram {
+  margin: 0 20%;
+  width:70%;
+  height:20%;
+  }
+
+  .get {
+    display: none;
+  }
+
+
+
+}
