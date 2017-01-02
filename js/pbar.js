@@ -7,7 +7,7 @@ var $bottom = $window.scrollTop() + $window.height();
 
 
 
-$window.resize(function(){
+/*$window.resize(function(){
 
 
     if($window.width() < 768){
@@ -16,7 +16,7 @@ $window.resize(function(){
       $(".aboutheading").show();
 
   }
-});
+});*/
 
 
 
