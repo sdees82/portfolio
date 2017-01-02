@@ -7,8 +7,6 @@ var $bottom = $window.scrollTop() + $window.height();
 
 
 
-
-
 $window.resize(function(){
 
 
