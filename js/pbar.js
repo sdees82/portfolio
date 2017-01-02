@@ -1,4 +1,12 @@
 $(function(){
+  $( document ).ready(function() {
+    if($window.width() < 566){
+      $(".retro").addClass("img-responsive");
+    }else if ($window.width() > 768) {
+      $(".retro").removeClass("img-responsive");
+
+  }
+});
 var $window = $(window);
 
 var $bottom = $window.scrollTop() + $window.height();
@@ -7,16 +15,16 @@ var $bottom = $window.scrollTop() + $window.height();
 
 
 
-/*$window.resize(function(){
+$window.resize(function(){
 
 
-    if($window.width() < 768){
-      $(".aboutheading").hide();
+    if($window.width() < 566){
+      $(".retro").addClass("img-responsive");
     }else if ($window.width() > 768) {
-      $(".aboutheading").show();
+      $(".retro").removeClass("img-responsive");
 
   }
-});*/
+});
 
 
 
@@ -45,9 +53,6 @@ if($window.width() > 768){
 
 }
 
-if($bottom > $("#skills-mobile").offset().top){
-  console.log("it's working");
-}
 
 
   $(".progress-bar").each(function(i){

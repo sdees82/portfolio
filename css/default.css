@@ -40,10 +40,7 @@
   visibility: hidden;
 }
 
-img{
 
-
-}
 /********jumbotron********/
 .jumbotron{
   height: 50%;
@@ -119,7 +116,7 @@ display: none;
 
 /*******RECENT WORK***********/
 #recentWork{
-  height: 1000px;
+  /*height: 1000px;*/
   margin-top: 10%;
   margin-bottom: 10%;
 
@@ -158,6 +155,45 @@ display: none;
   background: #000;
   margin-bottom: 0;
 }
+
+/*********Side Projects*************/
+  .sides{
+    font-family: 'Raleway', sans-serif;
+    margin: 5% 0;
+    background: #F9423A ;
+    color: #fff;
+  }
+/*
+  .sidehr{
+    width: 50%;
+    margin-bottom:5vh; 
+  }
+
+  #retrosection{
+    margin-bottom: 2%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+
+  }*/
+
+  .retro{
+    width: 500px;
+    height: 450px;
+    margin-bottom: 5vh; 
+  }
+
+  /*.sides > .container h1{
+    font-size: 3.5em;
+    padding-top: 5vh;
+  }*/
+
+ 
+
+  .sides > .container > .row > .col-sm-12 > p{
+    margin-top:5vh;
+    font-size: 1.3em;
+  }
+  
 /*******SKILLS***********/
 #skills-mobile{
 height: 90%;
@@ -311,6 +347,44 @@ display: none;
     margin: 0 auto;
 
 }
+
+/*********Side Projects*************
+  .sides{
+    font-family: 'Raleway', sans-serif;
+    /*margin: 5% 0;*
+    background: #F9423A ;
+    color: #fff;
+  }
+
+  .sidehr{
+    width: 50%;
+    margin-bottom:5vh; 
+  }
+
+  #retrosection{
+    margin-bottom: 2%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+
+  }
+
+  .retro{
+    width: 500px;
+    height: 450px;
+    margin-bottom: 5vh; 
+  }
+
+  .sides > .container h1{
+    font-size: 3.5em;
+    padding-top: 5vh;
+  }
+
+ 
+
+  .sides > .container > .row > .col-lg-6 > p{
+    
+    font-size: 1.3em;
+  }*/
   /******skills-mobile*****/
   #skills-mobile{
     margin: 20%;
@@ -426,10 +500,12 @@ display: none;
   }
 
   .navbar-inverse .navbar-nav>li>a{
+    font-family: 'Lato', sans-serif;
     color: #fff;
     font-size: 1.5em;
   }
   .navbar>.container-fluid .navbar-brand {
+    font-family: 'Lato', sans-serif;
     color: #fff;
     font-size: 1.5em;
   }
@@ -482,16 +558,20 @@ display: none;
   .aboutheading{
     /*height:70%;*/
     width: 100%;
-    background: #2C3539;
+    background: #2A2A2A;
     visibility: hidden;
     position: relative;
     color: #fff;
     border-bottom: 2px solid #000;
+  
   }
 
+  .aboutTitle{
+    margin-top: 0;
+  }
   .aboutheading > .container > .row > .col-sm-4{
-      font-size: 1.5em;
-      font-family: 'Raleway', sans-serif;
+      font-size: 1.3em;
+      font-family: 'Lato', sans-serif;
       /*margin-top:4%;*/
   }
 
@@ -514,17 +594,20 @@ display: none;
   }
 
   #recentWork > .container > h2{
-    font-family: 'Arizonia', cursive;
-    font-size: 4.5em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5em;
   }
   #recentWork > .container > .row > .col-sm-4 > .lay > a > .img-responsive{
     font-family: 'Raleway', sans-serif;
     margin-bottom: 5%;
     max-width: 100%;
+    
   }
 .wab{
   width: 293px;
   height: 208px;
+  box-shadow: 0 0 5px  #000;
+  margin-bottom: 8vh; 
 }
 
 
@@ -533,6 +616,45 @@ display: none;
   .aboutheading > .container > .row > .col-sm-4 > p{
     font-family: 'Raleway', sans-serif;
   }
+
+  /*********Side Projects*************/
+  .sides{
+    font-family: 'Raleway', sans-serif;
+    /*margin: 5% 0;*/
+    background: #F9423A ;
+    color: #fff;
+  }
+
+  .sidehr{
+    width: 50%;
+    margin-bottom:5vh; 
+  }
+
+  #retrosection{
+    margin-bottom: 2%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+
+  }
+
+  .retro{
+    width: 500px;
+    height: 450px;
+    margin-bottom: 5vh; 
+  }
+
+  .sides > .container h1{
+    font-size: 3.5em;
+    padding-top: 5vh;
+  }
+
+ 
+
+  .sides > .container > .row > .col-lg-6 > p{
+    
+    font-size: 1.3em;
+  }
+/********************************/
 
   .filler{
     height: 590px;
@@ -625,7 +747,6 @@ display: none;
 #contactMe{
   height: 40%;
   width: 100%;
-  margin-top: 0px;
   background: #2A2A2A;
   color: #fff;
   border-top: 1px solid #fff;
