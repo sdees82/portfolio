@@ -641,6 +641,7 @@ display: none;
     width: 500px;
     height: 450px;
     margin-bottom: 5vh; 
+    box-shadow: 0 0 20px #000;
   }
 
   .sides > .container h1{
