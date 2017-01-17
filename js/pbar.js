@@ -1,4 +1,6 @@
 $(function(){
+  var $aboutHeading = $("#aboutheading");
+  $aboutHeading.hide();
   $( document ).ready(function() {
     if($window.width() < 566){
       $(".retro").addClass("img-responsive");
@@ -16,7 +18,7 @@ $('.glyphicon').click(function(){
   var height = -150;
   $('html,body').animate({
 
-    scrollTop: $('#aboutheading').offset().top + height} ,'slow');
+    scrollTop: $aboutHeading.show().offset().top + height} ,'slow');
 });
 
 
@@ -41,7 +43,7 @@ $window.scroll(function(){
 var $bottom = $window.scrollTop() + $window.height();
 if($window.width() > 768){
   if($bottom > 800){
-  $(".aboutheading").css({visibility:"visible", opacity: 0.0}).animate({opacity: 1.0},800);
+  $aboutHeading.show().css({visibility:"visible", opacity: 0.0}).animate({opacity: 1.0},500);
 
 
   }
