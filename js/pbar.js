@@ -12,6 +12,12 @@ var $window = $(window);
 var $bottom = $window.scrollTop() + $window.height();
 
 
+$('.glyphicon').click(function(){
+  var height = -150;
+  $('html,body').animate({
+
+    scrollTop: $('#aboutheading').offset().top + height} ,'slow');
+});
 
 
 
@@ -35,7 +41,7 @@ $window.scroll(function(){
 var $bottom = $window.scrollTop() + $window.height();
 if($window.width() > 768){
   if($bottom > 800){
-  $(".aboutheading").css({visibility:"visible", opacity: 0.0}).animate({opacity: 1.0},500);
+  $(".aboutheading").css({visibility:"visible", opacity: 0.0}).animate({opacity: 1.0},800);
 
 
   }
